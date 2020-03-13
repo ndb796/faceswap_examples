@@ -95,9 +95,8 @@ echo  "##### END #####"
 
 * FaceSwap 설치(Installation)
 <pre>
-git clone https://github.com/deepfakes/faceswap.git
-mv faceswap faceswap_test_1
-cd faceswap faceswap_test_1
+git clone https://github.com/deepfakes/faceswap.git faceswap_test_1
+cd faceswap_test_1
 pip install -r requirements.txt --user
 </pre>
 
