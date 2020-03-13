@@ -29,6 +29,7 @@ termios.error: (25, 'Inappropriate ioctl for device')
 keypress = KBHit(is_gui=self._args.redirect_gui)
 </pre>
 * 이후에 바로 아래쪽의 'Console Monitor' 부분 전체 주석 처리
+* 어차피 학습이 되는 과정에서 자동으로 저장을 해주므로, 프로세스를 강제로 종료해도 상관 없음
 
 #### 일반 리눅스 버전 1) 한 폴더 안에서 프로젝트 나누기
 
