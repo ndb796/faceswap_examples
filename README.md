@@ -23,9 +23,10 @@
     self.new_term = termios.tcgetattr(self.file_desc)
 termios.error: (25, 'Inappropriate ioctl for device')
 </pre>
-* scripts/train.py 파일에서 다음의 부분 주석 처리
+* scripts/train.py 파일에서 다음의 부분들 앞에 '#'을 붙여서 주석 처리
 <pre>
 err = self._monitor(thread)
+self._end_thread(thread, err)
 </pre>
 
 #### 일반 리눅스 버전 1) 한 폴더 안에서 프로젝트 나누기
